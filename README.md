@@ -5,6 +5,7 @@ See live version here:
 
 Used in this project:  
 -HTML5 and CSS3  
+-SASS  
 -CSS Flexbox  
 -Simple CSS animations and keyframes  
 -CSS BEM Methodology  
