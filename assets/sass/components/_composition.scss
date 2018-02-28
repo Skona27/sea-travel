@@ -1,0 +1,12 @@
+.composition {
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  border-radius: 2px;
+  transition: all .3s;
+  box-shadow: 0 .1rem .2rem rgba(black, .2);
+
+  &:hover {
+    transform: scale(1.02);
+  }
+}

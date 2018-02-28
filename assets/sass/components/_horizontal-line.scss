@@ -1,0 +1,13 @@
+.horizontal-line {
+  width: 25rem;
+  height: .3rem;
+  border: 0;
+  background-color: $color-secondary;
+  margin-top: 1rem;
+  margin-bottom: 10rem;
+  box-shadow: 0 .1rem .3rem rgba(black, .2);
+
+  &--white {
+    background-color: $color-white;
+  }
+}

@@ -1,0 +1,22 @@
+.feature-box {
+  color: $color-white;
+
+  &__icon {
+    margin-top: 2rem;
+    color: #ddd;
+    text-shadow: 0 .3rem .5rem rgba(black, .2);
+  }
+
+  &__title {
+    font-size: 2.4rem;
+    margin: 2.5rem 0;
+    text-shadow: 0 .1rem .2rem rgba(black, .2);
+  }
+
+  &__text {
+    max-width: 65rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    color: #ddd;
+  }
+}

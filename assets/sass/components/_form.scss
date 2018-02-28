@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 10rem;
+  width: 60%;
+
+  &__input {
+    flex-grow: 1;
+    padding: 1.5rem;
+    margin-right: 3rem;
+    font-size: 2rem;
+    color: $color-secondary;
+    font-weight: 700;
+    box-shadow: 0 .2rem .5rem rgba(black, .2);
+    
+    @include respond(tab-land) {
+      flex-basis: 100%;
+      margin: 0 0 1.2rem 0;
+      text-align: center;
+    };
+  }
+
+  &__btn {
+    border: none;
+  }
+}

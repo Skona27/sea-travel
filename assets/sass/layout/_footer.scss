@@ -1,0 +1,45 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1.5rem 10rem;
+  background-color: $color-black;
+
+  @include respond(tab-port) {
+    flex-direction: column;
+  };
+
+  &__copy {
+    color: $color-white;
+    letter-spacing: .5px;
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+
+    @include respond(tab-port) {
+      margin-top: .5rem;
+    };
+  }
+
+  &__social {
+    &:not(:last-child) {
+      margin-right: 3rem;
+    }
+  }
+
+  &__link {
+    color: $color-white;
+    opacity: .8;
+    transition: all .2s;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,83 @@
+.header {
+  background-image: linear-gradient(
+  to right bottom,
+  rgba($color-primary-light, .4),
+  rgba($color-primary-dark, .4)),
+  url(../img/hero.jpg);
+  background-size: cover;
+  background-position: top;
+
+  clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+
+  height: 95vh;
+  position: relative;
+
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+    padding: 3rem 10rem;
+
+    animation: 1s fadeIn .5s;
+    animation-fill-mode: backwards;
+
+    @include respond(tab-port) {
+      padding: 3rem 6rem
+    };
+
+    @include respond(phone) {
+      flex-direction: column;
+      align-items: center;
+    };
+  }
+
+  &__brand {
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-around;
+
+    list-style: none;
+  }
+
+  &__item {
+    padding: 0 1.6rem;
+    font-size: 2.2rem;
+    letter-spacing: .1rem;
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
+  &__link {
+    color: $color-white;
+    text-decoration: none;
+    opacity: .8;
+    transition: all .1s;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -60%);
+    animation: 1s slideBottom 1s;
+    animation-fill-mode: backwards;
+
+    @include respond(phone) {
+      margin-top: 3rem;
+    };
+  }
+}
