@@ -7,7 +7,7 @@ See live version here:
 
 ## My custom Flexbox grid
 Check out my custom Flexbox Grid:   
-[Flexbox Grid](hhttps://skona27.github.io/sea-travel/grid.html) 
+[Flexbox Grid](https://skona27.github.io/sea-travel/grid.html) 
 
 
 ## Built With
