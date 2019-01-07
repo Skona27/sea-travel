@@ -3,11 +3,11 @@ Landing page for fictional tour company
 
 ## Live version
 See live version here: 
-[LINK]https://skona27.github.io/sea-travel/index.html)    
+[LINK](https://skona27.github.io/sea-travel/index.html)    
 
 ## My custom Flexbox grid
 Check out my custom Flexbox Grid:   
-[Flexbox Grid](http://serwer.iksel.com.pl/ftp/sea-travel/grid.html) 
+[Flexbox Grid](hhttps://skona27.github.io/sea-travel/grid.html) 
 
 
 ## Built With
