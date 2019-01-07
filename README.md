@@ -1,15 +1,26 @@
-# sea-travel
+# Sea travel website 
 Landing page for fictional tour company  
+
+## Live version
 See live version here: 
-[LINK](http://serwer.iksel.com.pl/ftp/sea-travel/)    
+[LINK]https://skona27.github.io/sea-travel/index.html)    
 
-Used in this project:  
--HTML5 and CSS3  
--SASS  
--CSS Flexbox  
--Simple CSS animations and keyframes  
--CSS BEM Methodology  
--CSS 7-1 Architecture    
-
+## My custom Flexbox grid
 Check out my custom Flexbox Grid:   
 [Flexbox Grid](http://serwer.iksel.com.pl/ftp/sea-travel/grid.html) 
+
+
+## Built With
+
+* HTML5 and CSS3  
+* SASS  
+* CSS Flexbox  
+* Simple CSS animations and keyframes  
+* CSS BEM Methodology  
+* CSS 7-1 Architecture    
+
+
+## Authors
+
+Graphic design is from the Udemy course "The Advance Web Developer Bootcamp", but no code from theirs solution was used. 
+
